@@ -381,16 +381,16 @@ img {
   height: auto;
 }
 
-#service h2 {
+#courses h2 {
   max-width: 1200px;
   display: block;
   margin: 0 auto 30px auto;
 }
-#service .service--content {
+#courses .courses--content {
   display: block;
 }
 @media screen and (min-width: 768px) {
-  #service .service--content {
+  #courses .courses--content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -399,7 +399,7 @@ img {
             justify-content: space-between;
   }
 }
-#service .service--content .item {
+#courses .courses--content .item {
   -ms-flex-preferred-size: 32%;
       flex-basis: 32%;
   text-align: center;
@@ -410,25 +410,25 @@ img {
   transition: background-color 0.8s ease-in;
 }
 @media screen and (min-width: 768px) {
-  #service .service--content .item {
+  #courses .courses--content .item {
     margin-bottom: 0;
   }
 }
-#service .service--content .item h3 {
+#courses .courses--content .item h3 {
   font-weight: 700;
 }
-#service .service--content .item img {
+#courses .courses--content .item img {
   max-width: 80%;
   display: block;
   margin: 0 auto;
 }
-#service .service--content .item p {
+#courses .courses--content .item p {
   font-style: italic;
   display: block;
   margin-bottom: 30px;
   text-shadow: 0 1px 2px #222;
 }
-#service .service--content .item a {
+#courses .courses--content .item a {
   border: 1px solid #7f53ac;
   border-radius: 4px;
   padding: 10px 30px;
@@ -461,7 +461,6 @@ img {
   display: block;
   margin-bottom: 30px;
 }
-
 
 #certificate .certificate--content {
   display: -webkit-box;
