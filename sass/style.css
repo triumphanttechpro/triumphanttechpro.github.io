@@ -462,6 +462,7 @@ img {
   margin-bottom: 30px;
 }
 
+
 #certificate .certificate--content {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -472,7 +473,6 @@ img {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-
 
 #portfolio {
   z-index: 1;
